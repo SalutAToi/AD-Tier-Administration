@@ -1,0 +1,130 @@
+Name,Path,GroupScope,GroupCategory
+COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Default Container_DEL,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Disabled users OU_ADD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+PSO_Tier 0 ADM Users_APPLY,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 0 Global GPO_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 ADM Users PW_RST,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 ADM Users_UNLOCK,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 ADM Users_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 ADM Users_DISBL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 ADM Users_DEL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 ADM Users_LINK GPO,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 ADM Roles_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 ADM Roles_MEMBERSHIP,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 ADM Access Control_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 ADM Access Control_MEMBERSHIP,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 Service PW_RST,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 Service_UNLOCK,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 Service_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 Service_DISBL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 1 Service_DEL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+MSA_Tier 1 Service_CREATE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+MSA_Tier 1 Service_DEL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+MSA_Tier 1 Service_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 Service_LINK GPO,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 Service Access Control_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 1 Service Access Control_MEMBERSHIP,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+PSO_Tier 1 ADM Users_APPLY,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 All SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_RENAME,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_CREATE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_MOVE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Network SRV_LOCAL ADM,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 Network SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_RENAME,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_CREATE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_MOVE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Application SRV_LOCAL ADM,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 Application SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_RENAME,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_CREATE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_MOVE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 File SRV_LOCAL ADM,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 File SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_RENAME,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_CREATE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_MOVE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Update SRV_LOCAL ADM,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 Update SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_RENAME,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_CREATE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_MOVE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 1 Terminal SRV_LOCAL ADM,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 1 Terminal SRV_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 ADM Users_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 Service_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 Network SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 Application SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 File SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 Update SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 Terminal SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 1 All SRV_MOD,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 2 ADM Users PW_RST,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 2 ADM Users_UNLOCK,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 2 ADM Users_MANAGE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 2 ADM Users_DISBL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Tier 2 ADM Users_DEL,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 2 ADM Users_LINK GPO,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 2 ADM Roles_MANAGE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 2 ADM Roles_MEMBERSHIP,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 2 ADM Access Control_MANAGE,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Tier 2 ADM Access Control_MEMBERSHIP,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+PSO_Tier 2 ADM Users_APPLY,"CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_MOD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_RENAME,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_DEL,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_MOVE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+COMPTR_Tier 2 Workstations_LOCAL ADM,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 2 Workstations_LINK GPO,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 2 Workstations_MOD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users PW_RST,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users_UNLOCK,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users_MANAGE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users_DISBL,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users_DEL,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users_READ,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+USR_Corporate Users ConsistencyGUID attribute_WRITE,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+REPLICATION_All changes_ALLOW,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Corporate Users_LINK GPO,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Roles_MANAGE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Roles_MEMBERSHIP,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Access Control_MANAGE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GRP_Access Control_MEMBERSHIP,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Corporate Users_MOD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+PSO_Tier 0 Service Users_APPLY,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+PSO_Tier 1 Service Users_APPLY,"CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+ROLE_T0_AD Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T0_Global GPO Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T0_Tier 1 Administration Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T0_Tier 1 Service Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Network Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Application Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_File Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Update Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Terminal Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Tier 2 Administration Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_Corporate Access Control Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T1_GPO Creator,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T2_Workstation Admin,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T2_User Admin,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T2_Corporate Access Control Manager,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T2_Helpdesk,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T2_GPO Creator,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_Tier 0 Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_Tier 1 Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_Tier 2 Admin,"CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_Tier 0 Service,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_Tier 1 Service,"CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",Global,Security

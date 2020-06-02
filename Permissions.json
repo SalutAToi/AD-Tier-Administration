@@ -1,0 +1,575 @@
+[
+    {
+        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "USR_Tier 1 ADM Users PW_RST",
+                "Permissions": [
+                    "ResetPassword"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 ADM Users_UNLOCK",
+                "Permissions": [
+                    "UnlockUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 ADM Users_MANAGE",
+                "Permissions": [
+                    "ManageUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 ADM Users_DISBL",
+                "Permissions": [
+                    "DisableUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 ADM Users_DEL",
+                "Permissions": [
+                    "DeleteUser"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 ADM Users_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Tier 1 ADM Access Control_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Tier 1 ADM Access Control_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Tier 1 ADM Roles_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Tier 1 ADM Roles_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "USR_Tier 1 Service PW_RST",
+                "Permissions": [
+                    "ResetPassword"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 Service_UNLOCK",
+                "Permissions": [
+                    "UnlockUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 Service_MANAGE",
+                "Permissions": [
+                    "ManageUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 Service_DISBL",
+                "Permissions": [
+                    "DisableUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 1 Service_DEL",
+                "Permissions": [
+                    "DeleteUser"
+                ]
+            },
+            {
+                "Group": "MSA_Tier 1 Service_CREATE",
+                "Permissions": [
+                    "CreateMSA"
+                ]
+            },
+            {
+                "Group": "MSA_Tier 1 Service_DEL",
+                "Permissions": [
+                    "DeleteMSA"
+                ]
+            },
+            {
+                "Group": "MSA_Tier 1 Service_MOD",
+                "Permissions": [
+                    "ModifyMSA"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Service_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Tier 1 Service Access Control_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Tier 1 Service Access Control_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "OU_Tier 1 All SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Network,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 1 Network SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Network SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Network SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Network SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Network SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Application,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 1 Application SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Application SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Application SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Application SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Application SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=File,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 1 File SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 File SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 File SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 File SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 File SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Update,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 1 Update SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Update SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Update SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Update SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Update SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Terminal servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 1 Terminal SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Terminal SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Terminal SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 1 Terminal SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Terminal SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Users,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "USR_Tier 2 ADM Users PW_RST",
+                "Permissions": [
+                    "ResetPassword"
+                ]
+            },
+            {
+                "Group": "USR_Tier 2 ADM Users_UNLOCK",
+                "Permissions": [
+                    "UnlockUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 2 ADM Users_MANAGE",
+                "Permissions": [
+                    "ManageUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 2 ADM Users_DISBL",
+                "Permissions": [
+                    "DisableUser"
+                ]
+            },
+            {
+                "Group": "USR_Tier 2 ADM Users_DEL",
+                "Permissions": [
+                    "DeleteUser"
+                ]
+            },
+            {
+                "Group": "OU_Tier 2 ADM Users_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Tier 2 ADM Access Control_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Tier 2 ADM Access Control_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Tier 2 ADM Roles_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Tier 2 ADM Roles_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Workstations,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "COMPTR_Tier 2 Workstations_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 2 Workstations_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 2 Workstations_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 2 Workstations_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 2 Workstations_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Users,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "USR_Corporate Users PW_RST",
+                "Permissions": [
+                    "ResetPassword"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users_UNLOCK",
+                "Permissions": [
+                    "UnlockUser"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users_MANAGE",
+                "Permissions": [
+                    "ManageUser"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users_DISBL",
+                "Permissions": [
+                    "DisableUser"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users_DEL",
+                "Permissions": [
+                    "DeleteUser"
+                ]
+            },
+            {
+                "Group": "OU_Corporate Users_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users ConsistencyGUID attribute_WRITE",
+                "Permissions": [
+                    "RWConsistencyGUID"
+                ]
+            },
+            {
+                "Group": "USR_Corporate Users_READ",
+                "Permissions": [
+                    "RAllUserProperties"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Roles,CN=Security groups,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Roles_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Roles_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Access Control,CN=Security groups,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "GRP_Access Control_MANAGE",
+                "Permissions": [
+                    "ManageGroups"
+                ]
+            },
+            {
+                "Group": "GRP_Access Control_MEMBERSHIP",
+                "Permissions": [
+                    "GroupMembership"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "CN=Computers,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "COMPTR_Default Container_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Default Container_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Disabled Users,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "USR_Disabled users OU_ADD",
+                "Permissions": [
+                    "CreateUser"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "REPLICATION_All changes_ALLOW",
+                "Permissions": [
+                    "ReplicationChangesAll"
+                ]
+            }
+        ]
+    }
+]

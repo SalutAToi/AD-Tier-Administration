@@ -1,0 +1,358 @@
+{
+    "UnlockUser": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "lockoutTime"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "ResetPassword": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Reset password"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        },
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "pwdLastSet"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "CreateUser": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "DeleteUser": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "ManageUser": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "GenericAll",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        },
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild,DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "DisableUser": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "userAccountControl"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "CreateMSA": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "msDS-ManagedServiceAccount"
+            }
+        },
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "msDS-GroupManagedServiceAccount"
+            }
+        }
+    ],
+    "DeleteMSA": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "msDS-ManagedServiceAccount"
+            }
+        },
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "msDS-GroupManagedServiceAccount"
+            }
+        }
+    ],
+    "ModifyMSA": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "msDS-ManagedServiceAccount"
+            }
+        },
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "msDS-GroupManagedServiceAccount"
+            }
+        },
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Account Restrictions",
+                    "Validated write to DNS host name",
+                    "Validated write to service principal name",
+                    "Reset password"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "msDS-ManagedServiceAccount"
+            }
+        },
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Account Restrictions",
+                    "Validated write to DNS host name",
+                    "Validated write to service principal name"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "msDS-GroupManagedServiceAccount"
+            }
+        }
+    ],
+    "CreateComputer": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "computer"
+            }
+        }
+    ],
+    "DeleteComputer": [
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "computer"
+            }
+        },
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "computer"
+            }
+        }
+    ],
+    "ModifyComputer": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        },
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Account Restrictions",
+                    "Validated write to DNS host name",
+                    "Validated write to service principal name",
+                    "Reset password"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        }
+    ],
+    "RenameComputer": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        },
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Account Restrictions",
+                    "Validated write to DNS host name",
+                    "Validated write to service principal name"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        }
+    ],
+    "ManageGroups": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "GenericAll",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "group"
+            }
+        },
+        {
+            "Type": "CreateDeletePermission",
+            "ACE": {
+                "ActiveDirectoryRights": "CreateChild,DeleteChild",
+                "AccessControlType": "Allow",
+                "ObjectName": "group"
+            }
+        }
+    ],
+    "GroupMembership": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "member"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "group"
+            }
+        }
+    ],
+    "LinkGPO": [
+        {
+            "Type": "ContainerPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "gPOptions",
+                    "gPLink"
+                ],
+                "InheritanceType": "All",
+                "ObjectName": "group"
+            }
+        },
+        {
+            "Type": "ContainerPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Generate Resultant Set of Policy (Planning)",
+                    "Generate Resultant Set of Policy (Logging)"
+                ],
+                "InheritanceType": "All"
+            }
+        }
+    ],
+    "ReplicationChangesAll": [
+        {
+            "Type": "ContainerPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ExtendedRight",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "Replicating Directory Changes",
+                    "Replicating Directory Changes All"
+                ],
+                "InheritanceType": "None"
+            }
+        }
+    ],
+    "RWConsistencyGUID": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "mS-DS-ConsistencyGuid"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        }
+    ],
+    "RAllUserProperties": [
+        {
+            "Type": "GeneralPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty",
+                "AccessControlType": "Allow",
+                "InheritanceType": "Descendents",
+                "ObjectName": "user"
+            }
+        }
+    ]
+}

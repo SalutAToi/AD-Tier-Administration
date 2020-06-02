@@ -1,0 +1,33 @@
+GPOname,AdminLevel
+C_REG_Chrome enrollment,Tier2Workstations
+C_PWR_Desktop power management,Tier2Workstations
+C_PWR_Laptop power management,Tier2Workstations
+"C_PWR_Shared power management ",Tier2Workstations
+C_APP_Datto deployment,Tier2Workstations
+C_APP_Google File Stream deployment,Tier2Workstations
+C_APP_Google Backup deployment,Tier2Workstations
+C_SEC_Tier 2 logon isolation,Tier0Global
+C_SEC_Tier 1 logon isolation,Tier0Global
+C_RDP_Global RDP policy,Tier0Global
+C_SEC_Tier 0 hardening,Tier0Global
+C_SEC_Tier 1 hardening,Tier1AllServers
+C_SEC_Tier 2 hardening,Tier2Workstations
+C_SEC_Network server hardening,Tier1NetServers
+C_SEC_Application server hardening,Tier1AppServers
+C_SEC_File server hardening,Tier1FileServers
+C_SEC_Update server hardening,Tier1UpdateServers
+C_SEC_Terminal server hardening,Tier1TermServers
+C_SEC_Workstation hardening,Tier2Workstations
+C_SEC_Laptop hardening,Tier2Workstations
+C_ADM_Network server admin,Tier1NetServers
+C_ADM_Application server admin,Tier1AppServers
+C_ADM_File server admin,Tier1FileServers
+C_ADM_Update server admin,Tier1UpdateServers
+C_ADM_Terminal server admin,Tier1TermServers
+C_ADM_Workstation admin,Tier2Workstations
+C_WALLPPR_Logon screen wallpaper,CorporateUsers
+U_PRINTER_Deploy Sydney printers,CorporateUsers
+U_PRINTER_Deploy Brisbane printers,CorporateUsers
+U_PRINTER_Deploy Melbourne printers,CorporateUsers
+U_PRINTER_Deploy Perth printers,CorporateUsers
+U_PRINTER_Deploy Adelaide printers,CorporateUsers
