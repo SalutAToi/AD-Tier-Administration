@@ -1,5 +1,6 @@
 $GPOAdminLevelGroups = @{
     Tier0Global = "GPO_Tier 0 Global GPO_MOD";
+    Tier0PKIServers = "GPO_Tier 0 PKI SRV_MOD";
     Tier1AllServers = "GPO_Tier 1 All SRV_MOD";
     Tier1ADMUsers = "GPO_Tier 1 ADM Users_MOD";
     Tier1ServiceUsers = "GPO_Tier 1 Service_MOD";

@@ -4,6 +4,14 @@ COMPTR_Default Container_DEL,"CN=Access Control,OU=Tier 2,OU=Administration,OU=C
 USR_Disabled users OU_ADD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 PSO_Tier 0 ADM Users_APPLY,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 GPO_Tier 0 Global GPO_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_RENAME,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_DEL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_CREATE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_MOVE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+SRV_Tier 0 PKI SRV_LOCAL ADM,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+OU_Tier 0 PKI SRV_LINK GPO,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
+GPO_Tier 0 PKI SRV_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 USR_Tier 1 ADM Users PW_RST,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 USR_Tier 1 ADM Users_UNLOCK,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 USR_Tier 1 ADM Users_MANAGE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
@@ -109,6 +117,7 @@ ROLE_T0_AD Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com
 ROLE_T0_Global GPO Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T0_Tier 1 Administration Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T0_Tier 1 Service Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T0_PKI Server Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T1_Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T1_Network Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T1_Application Server Admin,"CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security

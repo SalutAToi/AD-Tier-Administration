@@ -162,6 +162,52 @@
         ]
     },
     {
+        "DistinguishedName": "OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "OU_Tier 0 All SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=PKI,OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "SRV_Tier 0 PKI SRV_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 0 PKI SRV_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 0 PKI SRV_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "SRV_Tier 0 PKI SRV_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 0 PKI SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
         "DistinguishedName": "OU=Network,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
