@@ -22,11 +22,15 @@ $OUs = @(
         path="OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Workstations";
+        name="Tier 2";
         path="OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Servers";
+        name="Tier 1";
+        path="OU=Computers,OU=Corp,DC=contoso,DC=com"
+    },
+    @{
+        name="Tier 0";
         path="OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
@@ -34,32 +38,36 @@ $OUs = @(
         path="OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
+        name="PKI";
+        path="OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com"
+    },
+    @{
         name="Shared";
-        path="OU=Workstations,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Desktops";
-        path="OU=Workstations,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Laptops";
-        path="OU=Workstations,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Network";
-        path="OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Application";
-        path="OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="File";
-        path="OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Update";
-        path="OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
         name="Adelaide";

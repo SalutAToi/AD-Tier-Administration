@@ -151,7 +151,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "OU_Tier 1 All SRV_LINK GPO",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Network,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Network,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Network SRV_MOD",
@@ -197,7 +197,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Application,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Application,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Application SRV_MOD",
@@ -232,7 +232,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=File,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=File,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 File SRV_MOD",
@@ -267,7 +267,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Update,OU=Servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Update,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Update SRV_MOD",
@@ -412,7 +412,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Workstations,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
                 "Group": "COMPTR_Tier 2 Workstations_MOD",
