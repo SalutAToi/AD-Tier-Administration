@@ -19,12 +19,14 @@ C_SEC_Update server hardening,Tier1UpdateServers
 C_SEC_Terminal server hardening,Tier1TermServers
 C_SEC_Workstation hardening,Tier2Workstations
 C_SEC_Laptop hardening,Tier2Workstations
+C_ADM_PKI server admin,Tier0PKIServers
 C_ADM_Network server admin,Tier1NetServers
 C_ADM_Application server admin,Tier1AppServers
 C_ADM_File server admin,Tier1FileServers
 C_ADM_Update server admin,Tier1UpdateServers
 C_ADM_Terminal server admin,Tier1TermServers
 C_ADM_Workstation admin,Tier2Workstations
+C_AUDIT_PKI server auditing,Tier0PKIServers
 C_WALLPPR_Logon screen wallpaper,CorporateUsers
 U_PRINTER_Deploy Sydney printers,CorporateUsers
 U_PRINTER_Deploy Brisbane printers,CorporateUsers
