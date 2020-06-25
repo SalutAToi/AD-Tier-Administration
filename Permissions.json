@@ -208,6 +208,41 @@
         ]
     },
     {
+        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "COMPTR_Tier 0 Privileged Access Workstations_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 0 Privileged Access Workstations_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 0 Privileged Access Workstations_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 0 Privileged Access Workstations_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 0 Privileged Access Workstations_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
         "DistinguishedName": "OU=Network,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
         "ACEs": [
             {
@@ -341,6 +376,41 @@
             },
             {
                 "Group": "OU_Tier 1 Update SRV_LINK GPO",
+                "Permissions": [
+                    "LinkGPO"
+                ]
+            }
+        ]
+    },
+    {
+        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "ACEs": [
+            {
+                "Group": "COMPTR_Tier 1 Privileged Access Workstations_MOD",
+                "Permissions": [
+                    "ModifyComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 1 Privileged Access Workstations_RENAME",
+                "Permissions": [
+                    "RenameComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 1 Privileged Access Workstations_DEL",
+                "Permissions": [
+                    "DeleteComputer"
+                ]
+            },
+            {
+                "Group": "COMPTR_Tier 1 Privileged Access Workstations_CREATE",
+                "Permissions": [
+                    "CreateComputer"
+                ]
+            },
+            {
+                "Group": "OU_Tier 1 Privileged Access Workstations_LINK GPO",
                 "Permissions": [
                     "LinkGPO"
                 ]
