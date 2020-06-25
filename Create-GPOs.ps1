@@ -1,6 +1,7 @@
 $GPOAdminLevelGroups = @{
     Tier0Global = "GPO_Tier 0 Global GPO_MOD";
     Tier0PKIServers = "GPO_Tier 0 PKI SRV_MOD";
+    Tier0PrivilegedAccessWorkstations = "GPO_Tier 0 Privileged Access Workstations_MOD";
     Tier1AllServers = "GPO_Tier 1 All SRV_MOD";
     Tier1ADMUsers = "GPO_Tier 1 ADM Users_MOD";
     Tier1ServiceUsers = "GPO_Tier 1 Service_MOD";
@@ -9,6 +10,7 @@ $GPOAdminLevelGroups = @{
     Tier1FileServers = "GPO_Tier 1 File SRV_MOD";
     Tier1UpdateServers = "GPO_Tier 1 Update SRV_MOD";
     Tier1TermServers = "GPO_Tier 1 Terminal SRV_MOD";
+    Tier1PrivilegedAccessWorkstations = "GPO_Tier 1 Privileged Access Workstations_MOD";
     Tier2Workstations = "GPO_Tier 2 Workstations_MOD";
     CorporateUsers = "GPO_Corporate Users_MOD"
 }
