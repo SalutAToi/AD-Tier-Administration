@@ -354,5 +354,33 @@
                 "ObjectName": "user"
             }
         }
+    ],
+    "RLAPSPwd": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "ms-Mcs-AdmPwd"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        }
+    ],
+    "RWLAPSExpiry": [
+        {
+            "Type": "SpecificPermission",
+            "ACE": {
+                "ActiveDirectoryRights": "ReadProperty,WriteProperty",
+                "AccessControlType": "Allow",
+                "InheritedObjectTypes": [
+                    "ms-Mcs-AdmPwdExpirationTime"
+                ],
+                "InheritanceType": "Descendents",
+                "ObjectName": "computer"
+            }
+        }
     ]
 }
