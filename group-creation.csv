@@ -130,6 +130,8 @@ GPO_Corporate Users_MOD,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,D
 PSO_Tier 0 Service Users_APPLY,"CN=Access Control,OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 PSO_Tier 1 Service Users_APPLY,"CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",DomainLocal,Security
 CERT_RDP Certificate Template_ENROLL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=CATERCARE,DC=LOCAL",DomainLocal,Security
+ROLE_T0_SCHM Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
+ROLE_T0_ENTRP Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T0_AD Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T0_Global GPO Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security
 ROLE_T0_Tier 1 Administration Admin,"CN=Roles,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com",Global,Security

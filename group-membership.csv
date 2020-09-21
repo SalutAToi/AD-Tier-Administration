@@ -1,4 +1,6 @@
 "group","addto"
+"ROLE_T0_SCHM Admin","Schema admins"
+"ROLE_T0_ENTRP Admin","Enterprise admins"
 "ROLE_T0_AD Admin","Domain admins"
 "ROLE_T0_Global GPO Admin","GPO_Tier 0 Global GPO_MOD"
 "ROLE_T0_PKI Server Admin","SRV_Tier 0 PKI SRV_MOD"
