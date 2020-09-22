@@ -14,6 +14,11 @@ Import-Csv $CSVPath | ForEach-Object {
         Write-Host "Skipping adding $($_.$GroupNameHeader) to $($_.$AddtoGroupHeader)"
         return
     }
+    if ((Get-ADGroupMember -Identity $($_.$AddtoGroupHeader) | Select -ExpandProperty Name) -contains $($_.$GroupNameHeader) ) {
+        Write-Host -ForegroundColor White -BackgroundColor Yellow "WARNING : Group "$($_.$GroupNameHeader)" is already a member of "$($_.$AddtoGroupHeader)
+        Write-Host "Skipping adding $($_.$GroupNameHeader) to $($_.$AddtoGroupHeader)"
+        return
+    }
 
 
     Write-Host "Adding $($_.$GroupNameHeader) to $($_.$AddtoGroupHeader)"
